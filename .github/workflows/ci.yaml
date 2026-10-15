@@ -1,9 +1,6 @@
 name: Build Image
 on:
-  issues:
-    types:
-      - opened
-      - labeled
+  workflow_dispatch:
 
 jobs:
   docker:
